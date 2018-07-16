@@ -7,12 +7,10 @@ module.exports = function (grunt) {
         'jscs:src',
         'jscs:tests',
         'jscs:grunt',
-        //'karma:build',
+        // 'karma:build',
         'clean:build',
         'concat',
         'uglify:build',
-        'less',
-        'cssmin',
         'notify:buildComplete'
     ]);
 };

@@ -1,15 +1,16 @@
 {
-  "name": "dc-addons",
+  "name": "dc-addons-bubble-chart",
   "description": "These are additional charts that extend dc.js",
-  "version": "0.13.5",
-  "homepage": "https://github.com/intellipharm/dc-addons",
+  "version": "0.1.0",
+  "homepage": "https://github.com/eileenprice/dc-addons-bubble-chart",
   "repository": {
     "type": "git",
-    "url": "git://github.com/intellipharm/dc-addons.git"
+    "url": "git://github.com/eileenprice/dc-addons-bubble-chart.git"
   },
   "authors": [
     "Intellipharm <damian@intellipharm.com.au>",
-    "Timothy Ruhle <timothy.ruhle@intellipharm.com.au>"
+    "Timothy Ruhle <timothy.ruhle@intellipharm.com.au>",
+    "Eileen Price <eileen.price@genesys.com>"
   ],
   "main": [
     "dist/dc-addons.js"
@@ -22,16 +23,7 @@
     "dcjs",
     "dc-js",
     "dc.js",
-    "leaflet",
-    "leaflet.js",
-    "google",
-    "map",
-    "tooltip",
-    "tool",
-    "tip",
-    "server",
-    "addons",
-    "pagination"
+    "bubble-cloud"
   ],
   "license": "MIT",
   "ignore": [
@@ -40,14 +32,11 @@
     "!dist/**/*"
   ],
   "dependencies": {
-    "dcjs": "dc-js/dc.js#~2.0.0",
-    "leaflet": "~0.7.5",
-    "leaflet.markercluster": "~0.4.0",
-    "d3-tip": "~0.6.6",
-    "d3": "~3.5.6"
+    "dcjs": "dc-js/dc.js#~3.0.2",
+    "d3": "~5.5.0"
   },
   "resolutions": {
-    "d3": "~3.5.6"
+    "d3": "~5.5.0"
   }
 }
 
